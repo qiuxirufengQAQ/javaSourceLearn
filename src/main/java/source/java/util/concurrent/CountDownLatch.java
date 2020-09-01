@@ -153,8 +153,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  * @since 1.5
  * @author Doug Lea
  */
-public class
-{
+public class CountDownLatch {
     /**
      * Synchronization control For CountDownLatch.
      * Uses AQS state to represent count.
